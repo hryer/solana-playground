@@ -1,0 +1,29 @@
+# Ignore the target directory
+/target/
+
+# Ignore build artifacts and other files created during compilation
+**/*.rs.bk
+
+# Ignore Cargo lock files if this is a library (for binary projects, keep Cargo.lock)
+Cargo.lock
+
+# Ignore the generated documentation
+/target/doc/
+
+# Ignore backup files from the editor
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+
+# Ignore dependency directory for IDEs like JetBrains
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore specific editor or IDE settings (optional)
+*.iml

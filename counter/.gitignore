@@ -1,0 +1,25 @@
+# Rust build files
+/target/
+**/*.rs.bk
+
+# Ignore Cargo lock file for libraries, but keep for binaries
+Cargo.lock
+
+# Generated documentation
+/target/doc/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.iml
+
+# Temporary files and backup files created by editors
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+
+# OS-specific files
+.DS_Store
+Thumbs.db
