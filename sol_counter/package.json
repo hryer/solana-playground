@@ -4,7 +4,6 @@
     "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
   },
   "dependencies": {
-    "@coral-xyz/anchor": "0.29.0",
     "@solana/web3.js": "1.78.4",
     "assert": "*",
     "bn.js": "*"
