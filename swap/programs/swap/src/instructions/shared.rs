@@ -16,6 +16,8 @@ pub fn transfer_tokens<'info>(
         mint: mint.to_account_info(),
     };
 
+    // CPI is used to call the transfer_checked function from the token program
+    // This function transfers tokens from one account to another, checking the amount and mint
     let cpi_context = CpiContext::new
         (token_program.to_account_info(),
         transfer_accounts_options);
